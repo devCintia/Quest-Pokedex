@@ -1,0 +1,27 @@
+.light-theme {
+  background-color: #ffffff;
+  color: #333;
+  min-height: 100vh;
+}
+
+.dark-theme {
+  background-color: #1e1e1e;
+  color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.theme-toggle-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #35a4f3;
+  font-size: 1.1rem;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.theme-toggle-btn:hover {
+  background: #7b83ded0;
+}

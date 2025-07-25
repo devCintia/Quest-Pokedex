@@ -1,0 +1,36 @@
+.details-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.pokemon-name {
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.pokemon-image-large {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.moves-list {
+  columns: 2;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #0077cc;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
